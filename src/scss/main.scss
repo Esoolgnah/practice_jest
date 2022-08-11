@@ -1,0 +1,49 @@
+/*----- Import Standard -----*/
+@import './responsive';
+@import './color';
+@import './fontWeight';
+@import './size';
+/*----- Import Standard -----*/
+
+/*----- Global Style -----*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  //1rem = 10px
+}
+
+h1 {
+  color: $grayScale6;
+  font-weight: $extraBold;
+}
+
+h2 {
+  color: $grayScale5;
+  font-weight: $bold;
+}
+
+h3 {
+  color: $grayScale5;
+  font-weight: $semiBold;
+}
+
+h5 {
+  font-weight: $semiBold;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/*----- Global Style -----*/

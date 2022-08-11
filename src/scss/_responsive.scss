@@ -1,0 +1,20 @@
+/* Responsive */
+
+/*----- Break Point -----*/
+$tab: 76.8rem;
+$desktop: 120rem;
+/*----- Break Point -----*/
+
+/*----- Mixins -----*/
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (max-width: #{$tab - 0.1rem}) {
+    @content;
+  }
+}
+/*----- Mixins -----*/

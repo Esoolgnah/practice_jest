@@ -1,0 +1,57 @@
+/*----- Import Standard -----*/ /* Responsive */
+/*----- Break Point -----*/
+/*----- Break Point -----*/
+/*----- Mixins -----*/
+/*----- Mixins -----*/
+/* Color */
+/*----- Global -----*/
+/*----- Global -----*/
+/* FontWeight */
+/*----- Global -----*/
+/*----- Global -----*/
+/* Size */
+/*----- Global -----*/
+/*----- Global -----*/
+/*----- Import Standard -----*/
+/*----- Global Style -----*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  color: #282f38;
+  font-weight: 800;
+}
+
+h2 {
+  color: #384350;
+  font-weight: 700;
+}
+
+h3 {
+  color: #384350;
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*----- Global Style -----*/

@@ -1,0 +1,20 @@
+/* FontStyle */
+
+/*----- Global -----*/
+%cardName {
+  font-weight: $medium;
+  color: $grayScale5;
+}
+%cardPrice {
+  font-weight: $bold;
+  color: $grayScale4;
+}
+%cardDiscount {
+  font-weight: $medium;
+  color: $socarBlue;
+}
+%cardDetail {
+  font-weight: $medium;
+  color: $grayScale3;
+}
+/*----- Global -----*/
