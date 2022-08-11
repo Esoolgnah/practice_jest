@@ -10,5 +10,5 @@ test('addNumber는 두 수를 더하는 함수입니다.', () => {
   const actResult = addNumber(numberA, numberB);
 
   //평가
-  expect(actResult).toEqual(result);
+  expect(actResult).toBe(result);
 });
